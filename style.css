@@ -48,6 +48,15 @@ h1 {
     font-size: 4rem;
 }
 
+h3 {
+    color: #1200FF;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+}
+
 h2 {
     color: #1200FF;
     font-weight: 500;
@@ -88,6 +97,9 @@ p1 {
     display: flex;
     background-color: #1200FF;
     text-align: center;
+    justify-content: center; /* Center the text */
+    gap: 2rem;
+
     padding: 2rem;
 }
 
@@ -101,17 +113,26 @@ p1 {
     display: flex;
     gap: 8px;
     padding: 20px 20px;
-    min-width: 40%;
+    min-width: 60%;
     flex-wrap: wrap; /* Allow cards to wrap onto new lines */
 }
 
 .card {
     background-color: #ffffff;
-    height: 260px;
-    width: 300px;
+    height: 400px;
+    width: 600px;
     border-radius: 10px;
-    cursor: pointer;
+    //cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 16px;
 }
 
 .card:hover {
