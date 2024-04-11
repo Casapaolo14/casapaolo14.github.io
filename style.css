@@ -104,7 +104,8 @@ p1 {
 }
 
 .icon {
-    fill: #FFC107;
+    fill: #FFCC33;
+    //fill: #FFBF00;
 }
 
 .cards {
@@ -120,7 +121,7 @@ p1 {
 .card {
     background-color: #ffffff;
     height: 400px;
-    width: 600px;
+    width: 400px;
     border-radius: 10px;
     //cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -150,3 +151,27 @@ p1 {
     }
 }
 
+.button {
+    background-color: #1200FF;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: Reddit Mono;
+
+    padding: 1rem;
+  }
+  
+  .button:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #1200FF;
+  }
+  
