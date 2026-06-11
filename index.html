@@ -1,165 +1,231 @@
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <!-- REDDIT FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paolo Casagrande - IT Student & Developer</title>
 
-        <!-- LATO FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <!-- SEO Meta -->
+    <meta name="description" content="Paolo Casagrande - Master's student in Information Technology at the University of Udine, passionate about UI, UX and Design." />
+    <link rel="canonical" href="https://casapaolo14.github.io/index.html" />
 
-        <!-- Bebas Neue FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Home" />
+    <meta property="og:description" content="Paolo Casagrande - Master's student in Information Technology at the University of Udine, passionate about UI, UX and Design." />
+    <meta property="og:url" content="https://casapaolo14.github.io/index.html" />
+    <meta property="og:site_name" content="Paolo Casagrande" />
+    <meta property="og:type" content="website" />
 
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Home" />
+    <meta name="twitter:description" content="Paolo Casagrande - Master's student in Information Technology at the University of Udine, passionate about UI, UX and Design." />
 
-        <link rel="stylesheet" href="style.css">
-        
-        <title>
-            Paolo Casagrande
-        </title>
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Home",
+      "description": "Paolo Casagrande - Master's student in Information Technology at the University of Udine.",
+      "url": "https://casapaolo14.github.io/index.html"
+    }
+    </script>
 
-    </head>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/images/logo.ico" type="image/x-icon" />
 
+    <!-- REDDIT MONO FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Bebas+Neue&display=swap" rel="stylesheet" />
 
-    <body>
-        <header class="header">
-            <!--
-            <a href="https://casapaolo14.github.io"> 
-                Paolo Casagrande 
-            </a>
-            -->
+    <link rel="stylesheet" href="style.css" />
 
+    <!-- Theme: apply saved preference before paint to avoid flash -->
+    <script>
+      (function() {
+        var t = localStorage.getItem('theme');
+        if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+      })();
+    </script>
+  </head>
 
-                    <a href="https://github.com/Casapaolo14" class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                    </a>
-        
-                    <a href="https://www.instagram.com/casapaolo14/" class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>            </a>
-        
-                    <a href="https://www.linkedin.com/in/paolo-casagrande-608570187/" class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>            </a>
-        
-        </header>
-        
-        <nav class="center" style="text-align: center;">
+  <body>
+    <main>
 
-            <a href="/files/CV_Casagrande_Paolo.pdf" > 
-                <h3> Click here to see my CV!</h3>
-            </a>
+      <!-- ============ SIDEBAR ============ -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="/images/me.jpg" alt="Paolo Casagrande" width="80" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Paolo Casagrande">Paolo Casagrande</h1>
+            <p class="title">IT Student &amp; Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Udine, Friuli, Italy</address>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="school-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">University</p>
+                <span class="contact-link">University of Udine</span>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/Casapaolo14" class="social-link" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://www.instagram.com/casapaolo14/" class="social-link" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/paolo-casagrande-608570187/" class="social-link" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- ============ MAIN CONTENT ============ -->
+      <div class="main-content">
+
+        <!-- NAV -->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="/index.html" class="navbar-link active">About</a>
+            </li>
+            <li class="navbar-item">
+              <a href="/files/CV_Casagrande_Paolo.pdf" class="navbar-link">CV</a>
+            </li>
+            <li class="navbar-item">
+              <a href="/thesis.html" class="navbar-link">Projects</a>
+            </li>
+            <li class="navbar-item">
+              <a href="/contact.html" class="navbar-link">Contact</a>
+            </li>
+          </ul>
         </nav>
 
-            
-<div class="backgroundGradient">
+        <!-- ABOUT ARTICLE -->
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <div class="background::before">
-            <div class = "background"> 
-                <div class="center">
-                </div>
-                <p1 class="center">Hi, my name is </p1>
+          <section class="about-text">
+            <p>
+              Hi, my name is <strong>Paolo Casagrande</strong>. I'm a programmer that loves
+              <strong>User Interface</strong>, <strong>User Experience</strong>, and <strong>Design</strong>.
+              I'm currently studying for a Master's degree in Information Technology at the University of Udine.
+            </p>
 
-                <h1 class="name">Paolo Casagrande</h1>
+            <p>
+              In my academic journey I learned various programming languages including <strong>Java</strong>,
+              <strong>C#</strong>, and <strong>C++</strong>. I've developed projects using Unity
+              (<em>also using Virtual Reality</em>) and Android Studio.
+            </p>
 
-                <div class="center">
-                    <p> I'm a programmer that loves <b>User Interface</b>,<b>User Experience</b>  and <b>Design</b>. I'm currently studying for a Master's degree in Information Technology at the University of Udine. </p>
-                </div>
+            <figure style="text-align: center; margin: 1.5rem 0;">
+              <img src="/images/me.jpg" alt="Paolo Casagrande"
+                style="height: 400px; width: 340px; display: block; margin: 0 auto; border-radius: 8px;" />
+            </figure>
+          </section>
+        </article>
 
-                <div class="center">
+        <!-- PROJECTS ARTICLE -->
+        <article class="projects" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">#projects and case studies</h2>
+          </header>
 
-                    <img style="  display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    height: 400px;
-                    width: 340px;" src="/images/me.jpg" alt="Thesis">
-                    <p> In my academic journey I learned various programming languages including <b>Java</b>, <b>C#</b> and <b>C++</b>. I've developed some projects using Unity (<em>also using Virtual Reality</em>) and Android Studio; you can see some details of each project down below. </p>
-                </div>
-            </div>
+          <p>Here you can find a list of the major case studies and projects that I'm most proud of:</p>
 
-        </div>
-
-</div>
-
-
-
-        <h2 class="name">  #projects and case studies</h2>
-        <div class="center">
-            <p>Here you can find a list of the major case studies and projects that I'm most proud of: </p>
-        </div>
-
-        <div class="cards" style="height: auto;">
+          <div class="cards" style="height: auto;">
             <div class="card">
-                <div class="card-content">
-                    <h3>1 - Thesis on VR interface</h3>
-                    <p> 
-                        <img style="  display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    height: 80%;
-                    width: 80%;" src="/images/gameplay.png" alt="Thesis">
-                    </p> 
-
-                    <a href="/thesis.html"> <button class="button">See more!</button></a>
-                </div>
-                
+              <div class="card-content">
+                <h3>1 - Thesis on VR interface</h3>
+                <p>
+                  <img style="display: block; margin: 0 auto; height: 80%; width: 80%;"
+                    src="/images/gameplay.png" alt="Thesis" />
+                </p>
+                <a href="/thesis.html"><button class="button">See more!</button></a>
+              </div>
             </div>
-            
+
             <div class="card">
-                <div class="card-content">
-                    <h3>2 - development of a minigame</h3>
-                    <p> 
-                        <img style="  display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    height: 80%;
-                    width: 80%;
-                    " src="/images/game/home.png" alt="Game"> 
-                    </p> 
-                    <a href="/gardenminigame.html"> <button class="button">See more!</button></a>
-                </div>
+              <div class="card-content">
+                <h3>2 - Development of a minigame</h3>
+                <p>
+                  <img style="display: block; margin: 0 auto; height: 80%; width: 80%;"
+                    src="/images/game/home.png" alt="Game" />
+                </p>
+                <a href="/gardenminigame.html"><button class="button">See more!</button></a>
+              </div>
             </div>
 
-            <div class="card"> 
-                <div class="card-content">
-                    <h3>3 - case study on street crossing with vr</h3>
-                    <p> 
-                        <img style="  display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                        height: 90%;
-                        width: 90%;" src="/images/vrcrossing.png" alt="VR Case Study">                    </p> 
-                    <a href="/vrcrossing.html"> <button class="button">See more!</button></a>
-                </div>
+            <div class="card">
+              <div class="card-content">
+                <h3>3 - Case study on street crossing with VR</h3>
+                <p>
+                  <img style="display: block; margin: 0 auto; height: 90%; width: 90%;"
+                    src="/images/vrcrossing.png" alt="VR Case Study" />
+                </p>
+                <a href="/vrcrossing.html"><button class="button">See more!</button></a>
+              </div>
             </div>
 
-            <div class="card"> 
-                <div class="card-content">
-                    <h3>4 - development of an application</h3>
-                    <p> 
-                        <img style="  display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    max-width: 50%;
-                    " src="/images/dressUp.png" alt="APP"> 
-                    </p> 
-                    <a href="/app.html"> <button class="button">See more!</button></a>
-                </div>
+            <div class="card">
+              <div class="card-content">
+                <h3>4 - Development of an application</h3>
+                <p>
+                  <img style="display: block; margin: 0 auto; max-width: 50%;"
+                    src="/images/dressUp.png" alt="App" />
+                </p>
+                <a href="/app.html"><button class="button">See more!</button></a>
+              </div>
             </div>
-        </div>
+          </div>
+        </article>
 
-       
+      </div><!-- /.main-content -->
+    </main>
 
-
-    
-    </body>
-
+    <script src="/assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>
