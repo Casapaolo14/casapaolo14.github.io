@@ -34,16 +34,15 @@
     </script>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/assets/images/logo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
 
     <!-- REDDIT MONO FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200.900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Bebas+Neue&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
 
-    <!-- Theme: apply saved preference before paint to avoid flash -->
     <script>
       (function() {
         var t = localStorage.getItem('theme');
@@ -52,25 +51,20 @@
     </script>
   </head>
 
-  <body>
+  <body class="bg">
     <main>
 
       <!-- ============ SIDEBAR ============ -->
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
           <figure class="avatar-box">
-            <img src="/images/me.jpg" alt="Paolo Casagrande" width="80" />
+            <img src="./images/me.jpg" alt="Paolo Casagrande" width="80" />
           </figure>
 
           <div class="info-content">
             <h1 class="name" title="Paolo Casagrande">Paolo Casagrande</h1>
             <p class="title">IT Student &amp; Developer</p>
           </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
         </div>
 
         <div class="sidebar-info_more">
@@ -92,7 +86,7 @@
               </div>
               <div class="contact-info">
                 <p class="contact-title">University</p>
-                <span class="contact-link">University of Udine</span>
+                <a href="https://www.uniud.it" class="contact-link" target="_blank" rel="noopener noreferrer">University of Udine</a>
               </div>
             </li>
           </ul>
@@ -126,22 +120,22 @@
         <nav class="navbar">
           <ul class="navbar-list">
             <li class="navbar-item">
-              <a href="/index.html" class="navbar-link active">About</a>
+              <a href="./index.html" class="navbar-link active">About</a>
             </li>
             <li class="navbar-item">
-              <a href="/files/CV_Casagrande_Paolo.pdf" class="navbar-link">CV</a>
+              <a href="./files/CV_Casagrande_Paolo.pdf" class="navbar-link">CV</a>
             </li>
             <li class="navbar-item">
-              <a href="/thesis.html" class="navbar-link">Projects</a>
+              <a href="./projects.html" class="navbar-link">Projects</a>
             </li>
-            <li class="navbar-item">
-              <a href="/contact.html" class="navbar-link">Contact</a>
-            </li>
+            <!-- <li class="navbar-item">
+              <a href="./contact.html" class="navbar-link">Contact</a>
+            </li> -->
           </ul>
         </nav>
 
         <!-- ABOUT ARTICLE -->
-        <article class="about active" data-page="about">
+        <article class="about active" >
           <header>
             <h2 class="h2 article-title">About me</h2>
           </header>
@@ -160,65 +154,16 @@
             </p>
 
             <figure style="text-align: center; margin: 1.5rem 0;">
-              <img src="/images/me.jpg" alt="Paolo Casagrande"
-                style="height: 400px; width: 340px; display: block; margin: 0 auto; border-radius: 8px;" />
+              <img src="./images/me.jpg" alt="Paolo Casagrande"
+                style="display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: auto;
+                    width: auto; 
+                    max-width: 60%; 
+                    border-radius: 8px;" />
             </figure>
           </section>
-        </article>
-
-        <!-- PROJECTS ARTICLE -->
-        <article class="projects" data-page="projects">
-          <header>
-            <h2 class="h2 article-title">#projects and case studies</h2>
-          </header>
-
-          <p>Here you can find a list of the major case studies and projects that I'm most proud of:</p>
-
-          <div class="cards" style="height: auto;">
-            <div class="card">
-              <div class="card-content">
-                <h3>1 - Thesis on VR interface</h3>
-                <p>
-                  <img style="display: block; margin: 0 auto; height: 80%; width: 80%;"
-                    src="/images/gameplay.png" alt="Thesis" />
-                </p>
-                <a href="/thesis.html"><button class="button">See more!</button></a>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-content">
-                <h3>2 - Development of a minigame</h3>
-                <p>
-                  <img style="display: block; margin: 0 auto; height: 80%; width: 80%;"
-                    src="/images/game/home.png" alt="Game" />
-                </p>
-                <a href="/gardenminigame.html"><button class="button">See more!</button></a>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-content">
-                <h3>3 - Case study on street crossing with VR</h3>
-                <p>
-                  <img style="display: block; margin: 0 auto; height: 90%; width: 90%;"
-                    src="/images/vrcrossing.png" alt="VR Case Study" />
-                </p>
-                <a href="/vrcrossing.html"><button class="button">See more!</button></a>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-content">
-                <h3>4 - Development of an application</h3>
-                <p>
-                  <img style="display: block; margin: 0 auto; max-width: 50%;"
-                    src="/images/dressUp.png" alt="App" />
-                </p>
-                <a href="/app.html"><button class="button">See more!</button></a>
-              </div>
-            </div>
-          </div>
         </article>
 
       </div><!-- /.main-content -->
